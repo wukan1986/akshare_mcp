@@ -1,0 +1,10 @@
+[project]
+name = "mcp-akshare"
+version = "0.1.0"
+description = "AKShare MCP Server"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "akshare>=1.16.88",
+    "fastmcp>=2.2.10",
+]
