@@ -8,7 +8,8 @@
 
 ## 安装
 
-在虚拟环境下执行`pip install akshare_mcp`，运行`python -m akshare_mcp -h`检查是否安装成功
+1. 在虚拟环境下执行`pip install akshare_mcp`或`uv pip install akshare_mcp`，
+2. 运行`python -m akshare_mcp -h`检查是否安装成功，留意打印的配置文件路径
 
 ## 配置
 
