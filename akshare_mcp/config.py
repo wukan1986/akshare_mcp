@@ -1,5 +1,4 @@
 # 请复制函数名到名单中。https://akshare.akfamily.xyz/data/index.html
-print('current config:', __file__)
 
 # 白名单
 white_list = [
@@ -14,3 +13,6 @@ white_list = [
 black_list = [
     "car_market_total_cpca",
 ]
+
+# 打印当前配置文件路径
+print('current config:', __file__)
