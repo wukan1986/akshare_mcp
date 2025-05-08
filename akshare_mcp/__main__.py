@@ -1,4 +1,4 @@
-from mcp_akshare.server import serve
+from akshare_mcp.server import serve
 
 
 def main():

@@ -1,5 +1,5 @@
 [project]
-name = "mcp-akshare"
+name = "akshare_mcp"
 version = "0.1.0"
 description = "AKShare MCP Server"
 readme = "README.md"

@@ -6,7 +6,7 @@ import akshare as ak
 import pandas as pd
 from fastmcp import FastMCP
 
-from mcp_akshare.config import white_list, black_list
+from akshare_mcp.config import white_list, black_list
 
 mcp = FastMCP("AKShare MCP Server")
 
