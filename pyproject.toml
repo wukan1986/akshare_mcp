@@ -1,6 +1,5 @@
 [project]
 name = "akshare_mcp"
-version = "0.1.0"
 description = "AKShare MCP Server"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -8,3 +7,18 @@ dependencies = [
     "akshare>=1.16.88",
     "fastmcp>=2.2.10",
 ]
+dynamic = ["version"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+path = "akshare_mcp/_version.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["akshare_mcp"]
+include-package-data = true
+
+[tool.hatch.build.targets.sdist]
+include = ["akshare_mcp*"]
