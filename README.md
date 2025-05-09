@@ -38,4 +38,4 @@
 
 1. 运行`python -m akshare_mcp -h`，查看配置文件的位置。例如`d:\Users\Kan\miniconda3\envs\py312\Lib\site-packages\akshare_mcp\config.py`
 2. 编辑配置文件`config.py`，添加需要使用的接口。接口名参考`https://akshare.akfamily.xyz/data/index.html`
-3. 重启MCP客户端
+3. MCP客户端刷新重连服务端
