@@ -4,8 +4,8 @@ description = "AKShare MCP Server"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "akshare>=1.16.88",
-    "fastmcp>=2.2.10",
+    "akshare>=1.17.26",
+    "fastmcp>=2.10.6",
 ]
 dynamic = ["version"]
 
