@@ -54,6 +54,7 @@ def serve(format: Literal["markdown", "csv", "json"], transport: Literal["stdio"
 
     register(cfg.white_list, cfg.black_list, format=format)
 
-    fastmcp.settings.host = host
-    fastmcp.settings.port = port
-    mcp.run(transport=transport, host=host, port=port)
+    if transport == "stdio":
+        mcp.run(transport=transport)
+    else:
+        mcp.run(transport=transport, host=host, port=port)

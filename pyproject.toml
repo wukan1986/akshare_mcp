@@ -5,7 +5,7 @@ readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
     "akshare>=1.17.26",
-    "fastmcp>=2.10.6",
+    "fastmcp>=2.13.1",
 ]
 dynamic = ["version"]
 
